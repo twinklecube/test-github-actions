@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx rimraf dist && webpack --config=webpack.prod.js",
     "start": "webpack serve --config=webpack.dev.js",
-    "prod": "npm run build && pm2 serve dist/ 3000 --name \"sudoku-fe\" --spa "
+    "prod": "pm2 serve dist/ 3000 --name \"sudoku-fe\" --spa "
   },
   "author": "''",
   "license": "ISC",
